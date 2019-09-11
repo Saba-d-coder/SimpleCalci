@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+
+/* styles for calci.js */
+.Heading{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-top:100px;
+    font-family: 'Chilanka', cursive;
+}
+
+.main{
+    text-align:center;
+    margin:5% 40%;
+    border:2px solid black;
+    padding:10px 10px 0px 10px;
+    width:18%;
+    height: 300px;
+    box-shadow: 2px 2px 5px black;
+    /* background-color: rgb(192, 189, 189); */
+    /* color:#f3cfaa */
+    background-color: cyan
+}
+
+ .keypad{
+     margin-top:10px
+ }
+
+ .Display{
+    border:2px solid black;
+    padding:3px 0
+ }
