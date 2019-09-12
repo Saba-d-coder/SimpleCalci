@@ -1,0 +1,15 @@
+.Btn{
+    height:40px;
+    width:67px;
+    background-color:black;
+    font-size:19px;
+    border:1px solid grey;
+    box-shadow:2px 2px 5px rgb(30,30,30);
+    color:white
+}
+
+.Btn:active{
+    background-color:grey;
+}
+
+
