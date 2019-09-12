@@ -1,19 +1,11 @@
 import React from 'react';
-
-// css style object
-const styles={
-    border:"none",
-    backgroundColor:"cyan",
-    textAlign:"right",
-    width:"90%",
-    fontSize:"20px",
-};
+import '../screen.css';
 
 const ScreenRow = (props)=>{
     return(
-        <div className="screen-row">
+        <div>
             {/* readonly input so that user cant modify it */}
-            <input style={styles} type="text" readOnly value={props.value}/>
+            <input className="screen-row" type="text" readOnly value={props.value}/>
         </div>
     )
 }

@@ -15,20 +15,22 @@
     text-align:center;
     margin:5% 40%;
     border:2px solid black;
-    padding:10px 10px 0px 10px;
+    padding:12px 10px 0px 10px;
     width:18%;
-    height: 300px;
+    height: 320px;
     box-shadow: 2px 2px 5px black;
-    /* background-color: rgb(192, 189, 189); */
-    /* color:#f3cfaa */
-    background-color: cyan
+    background-color: cyan;
+    border-radius:6%;
+
 }
 
  .keypad{
-     margin-top:10px
+     margin-top:15px
  }
 
  .Display{
     border:2px solid black;
-    padding:3px 0
+    padding:2px 1.6px;
+    border-radius:6px;
+
  }
