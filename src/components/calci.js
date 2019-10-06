@@ -69,7 +69,7 @@ class Calci extends React.Component{
                 break;
             }
 
-            //default case accepts whatever button the user clicks (except those mentioned above) and are concatenated to the string present in the question
+            //default case accepts whatever button the user clicks (except those mentioned above) are concatenated to the string present in the question
             default:{
                 this.setState(prevState => ({question: prevState.question + choice}));                
 
